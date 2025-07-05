@@ -76,3 +76,5 @@ show_info("jorge@gmail.com")
 # {}.update -> atualiza dicionarios passando outros dicionarios como argumento
 # {}.values -> Retorna os valores que o dicionario tem
 # in -> Operador de pertencimento
+# del -> Passa o objeto que será removido
+# del contatos
