@@ -69,4 +69,10 @@ show_info("jorge@gmail.com")
 # {}.fromkeys -> Cria chaves dict.fromkeys(["nome", "telefone"], "vazio") -> {"nome": "vazio", "telefone": "vazio"}
 # {}.get -> o get é um metodo que caso não exista a chave desejada na lista, ela retorna None, sem travar o código como na busca direta
 # {}.keys -> Retorna as chaves que o dicionario tem
-# {}.pop -> remove do dicionario as informações da chave passada como argumento, esse metodo retorna as informações removidas
+# {}.pop -> remove do dicionario as informações da chave passada como argumento, esse metodo retorna as informações 
+# contatos.pop("chave", "nao encontrado") -> evitar keyError
+# {}.popitem -> não precisa informar as chaves
+# {}.setdefault -> Se o atributo nao estiver presente ele adiciona, se o atributo existir ele retorna esse atributo sem fazer alterações
+# {}.update -> atualiza dicionarios passando outros dicionarios como argumento
+# {}.values -> Retorna os valores que o dicionario tem
+# in -> Operador de pertencimento
