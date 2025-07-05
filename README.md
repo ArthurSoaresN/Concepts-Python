@@ -1,6 +1,7 @@
 #  Santander 2025 - Back-End com Python
 
-Este repositório contém minhas anotações e alguns testes das aulas do bootcamp Santander 2025 - Back-End com Python, oferecido pela DIO (Digital Innovation One).
+Este repositório contém minhas anotações das aulas do bootcamp Santander 2025 - Back-End com Python, oferecido pela DIO (Digital Innovation One).
+E alguns testes para solidificar o aprendizado
 
 ## Objetivo do Repositório
 
