@@ -20,3 +20,10 @@ print(linguagens[0])
 # {}.issuperset -> testa se o conjunto passado como argumento esta contido no conjunto.issuperset()
 # {}.isdisjoint -> testa se dois conjuntos não estão juntos (se contem numeros em comum)
 # {}.add -> adiciona elemento (Se ele não existe no conjunto)
+# {}.clear -> limpar conjunto
+# {}.copy -> copiar conjunto
+# {}.discard -> Discartar o argumento passado 
+# {}.pop -> Retira o elemento de indice 0
+# {}.remove -> Difente do discard ele retornar erro ao passar um argumento inexistente
+# len() -> tamanho do conjunto
+# in -> Operador de pertencimento
