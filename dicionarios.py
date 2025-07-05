@@ -61,3 +61,12 @@ def show_info(email: str):
         print(f"Erro: O email '{email}' não foi encontrado nos contatos.")
 
 show_info("jorge@gmail.com")
+
+# Metodos da classe dict
+
+# {}.clear -> limpar dicionario
+# {}.copy -> copiar dicionario em outra variavel
+# {}.fromkeys -> Cria chaves dict.fromkeys(["nome", "telefone"], "vazio") -> {"nome": "vazio", "telefone": "vazio"}
+# {}.get -> o get é um metodo que caso não exista a chave desejada na lista, ela retorna None, sem travar o código como na busca direta
+# {}.keys -> Retorna as chaves que o dicionario tem
+# {}.pop -> remove do dicionario as informações da chave passada como argumento, esse metodo retorna as informações removidas
