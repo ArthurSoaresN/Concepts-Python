@@ -63,3 +63,10 @@ def salario_bonus(bonus):
 aumento = salario_bonus(400)
 print(aumento)
 print(salario) # Modificar o valor da variavel dentro do escopo da função, algo como o uso de ponteiros em C
+
+#teste
+def funcao(*args, **kw):
+    print("args:", args)
+    print("kw:", kw)
+
+funcao("python", 2022, curso="dio")
