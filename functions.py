@@ -52,3 +52,14 @@ executar(10,5,subtrair)
 
 # Em python para usar as variaveis globais no escopo das functions, usa-se a palavra reservada "global"
 # Não é considerada uma boa prática em python
+
+salario = 2000
+
+def salario_bonus(bonus):
+    global salario
+    salario = salario + bonus
+    return salario
+
+aumento = salario_bonus(400)
+print(aumento)
+print(salario) # Modificar o valor da variavel dentro do escopo da função, algo como o uso de ponteiros em C
