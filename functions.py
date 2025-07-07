@@ -25,3 +25,27 @@ imprimir_pi(3.14159)
 #(*args e **kwargs)
 # tuple e dicionario
 
+#Positonal Only
+#Por posição
+# def function (arg1,arg2,arg3):
+
+
+#Keyword Only
+# def function (*, arg1, arg2):
+# Precisa atribuir os valores aos nomes
+
+#Hibrido
+# def function (arg1, agr2, /, *, arg3, arg4):
+
+# Em Python as functions são cidadãs de primeira classe, podemos usá-las como valor
+
+def somar(a,b):
+    return a+b
+def subtrair(a,b):
+    return a-b
+def executar(a,b,function):
+    resultado = function(a,b)
+    print(f"Resultado da operação: {resultado}")
+
+executar(10,5,somar)
+executar(10,5,subtrair)
