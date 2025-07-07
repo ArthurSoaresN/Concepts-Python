@@ -21,3 +21,7 @@ def imprimir_pi(pi: float = 3.14):
 
 imprimir_pi()
 imprimir_pi(3.14159)
+
+#(*args e **kwargs)
+# tuple e dicionario
+
