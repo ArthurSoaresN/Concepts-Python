@@ -49,3 +49,6 @@ def executar(a,b,function):
 
 executar(10,5,somar)
 executar(10,5,subtrair)
+
+# Em python para usar as variaveis globais no escopo das functions, usa-se a palavra reservada "global"
+# Não é considerada uma boa prática em python
