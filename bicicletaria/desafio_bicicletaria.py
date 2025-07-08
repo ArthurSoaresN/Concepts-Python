@@ -14,9 +14,27 @@ class Bicicleta:
     def correr(self):
         print(f"Bicicleta {self.modelo}: Correndo")
 
+    def get_color(self):
+        return self.cor
+    
+    def set_color(self, color: str):
+        new_color = color
+        self.cor = new_color
+        print(f"Cor da {self.modelo} alterada para: {new_color}")
+        return self.cor
+
 
 caloi = Bicicleta("Preta", "Caloi", 2024, 1400)
 
 caloi.buzinar()
 caloi.correr()
 caloi.parar()
+
+cor_caloi = caloi.get_color()
+print(f"Cor Caloi: {cor_caloi}")
+
+caloi.set_color("Vermelha")
+
+cor_caloi = caloi.get_color()
+print(f"Cor Caloi: {cor_caloi}")
+
