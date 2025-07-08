@@ -13,7 +13,7 @@ class Mamifero(Animal):
 
 
 class Ave(Animal):
-    def __init__(self, cor_bico, **kwargs):
+    def __init__(self, cor_bico, **kwargs): #KWARGS para unir paramentros de dois construtores
         self.cor_bico = cor_bico
         super().__init__(**kwargs)
 
