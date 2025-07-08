@@ -20,7 +20,7 @@ class Cachorro:
         self.acordado = acordado
     
     def latir(self):    #Método
-        print("Latido") 
+        print(f"Latido do cão: {self.nome}") 
     
     def dormir(self):
         self.acordado = False
@@ -30,3 +30,5 @@ class Cachorro:
 
 cao_1 = Cachorro("Dog", "Yellow", False)
 cao_2 = Cachorro("Chaves", "White")
+
+cao_1.latir()
