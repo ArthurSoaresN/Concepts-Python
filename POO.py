@@ -46,3 +46,25 @@ cao_1.latir()
 # a declaração é __del__
 # em linguagens de baixo nível é necessário liberar a memória dos objetos que não estão sendo mais usados
 # Em python ele é útil para realizar uma determinada ação antes de liberar a memória que está sendo usada
+
+# Conceito de Herança
+# É a capacidade de uma classe filha derivar ou herdar as caracteríticas e comportamentos da classe pai(base)
+
+# Benefícios
+# Representa bem os relacionamentos do mundo real
+# Reutilização de código
+# É de natureza transitiva
+
+class A:    #pai
+    pass    
+class B(A): #filha
+    pass
+
+# Herança simples
+# Quando uma classe filha herda apenas uma classe pai, ela é chamada de herança simples
+
+# Herança múltipla
+# Quando uma classe filha herda de várias classes pai
+
+class C(A, B):
+    pass
