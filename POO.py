@@ -26,3 +26,7 @@ class Cachorro:
         self.acordado = False
         print("Dormindo...")
         
+# Objeto
+
+cao_1 = Cachorro("Dog", "Yellow", False)
+cao_2 = Cachorro("Chaves", "White")
