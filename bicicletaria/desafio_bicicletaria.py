@@ -22,6 +22,9 @@ class Bicicleta:
         self.cor = new_color
         print(f"Cor da {self.modelo} alterada para: {new_color}")
         return self.cor
+    
+    def __str__(self):
+        return f"{self.__class__.__name__}: {', '.join([f'{chave}={valor}' for chave, valor in self.__dict__.items()])}"
 
 
 caloi = Bicicleta("Preta", "Caloi", 2024, 1400)
@@ -38,3 +41,4 @@ caloi.set_color("Vermelha")
 cor_caloi = caloi.get_color()
 print(f"Cor Caloi: {cor_caloi}")
 
+print(caloi)
