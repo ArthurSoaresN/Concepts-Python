@@ -15,6 +15,7 @@
 #Classe
 class Cachorro:
     def __init__(self, nome, cor, acordado = True): # Construtor
+        #Inicialização
         self.nome = nome
         self.cor = cor
         self.acordado = acordado
