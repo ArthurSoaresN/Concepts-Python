@@ -12,3 +12,26 @@
 # Atributo não privado
 # + depositar
 # + sacar
+
+# Recurso privado terá underline em seu nome, o interpretador não irá garantir sua proteção
+# mas sim sua convenção
+
+class Conta:
+    def __init__(self, saldo, numero_agencia):
+        self._saldo = saldo
+        self.numero_agencia = numero_agencia
+    
+    def depositar(self, valor):
+        self._saldo += valor #Encapsulamento
+
+    def sacar(self, valor):
+        self._saldo -= valor #Encapsulamento
+
+    def get_saldo(self):
+        return self._saldo
+
+
+
+conta = Conta(100, "0001")
+print(conta.numero_agencia)
+print(conta.get_saldo())
