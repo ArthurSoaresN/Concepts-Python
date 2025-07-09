@@ -24,3 +24,5 @@ print(foo.x)
 foo.x = 10
 print(foo.x)
     
+# Elas são a chave para criar atributos "inteligentes" em suas classes, 
+# que parecem variáveis comuns por fora, mas por trás dos panos, executam código (métodos).
