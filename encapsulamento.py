@@ -34,4 +34,6 @@ class Conta:
 
 conta = Conta(100, "0001")
 print(conta.numero_agencia)
-print(conta.get_saldo())
+print(conta.get_saldo()) # Proteçã de dados, imprimindo o saldo por um método
+
+    
