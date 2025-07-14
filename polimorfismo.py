@@ -8,7 +8,7 @@
 # len("python")
 # len([10,20,30])
 
-# Polimorfismo com herança
+# Polimorfismo precisa de herança
 
 # Na herança, a classe filha herda os métodos da classe pai
 # No entando, é possível modificar um método em uma classe filha
