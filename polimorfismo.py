@@ -23,11 +23,11 @@ class Pardal(Passaro):
     def voar(self):
         super().voar()
 
-class Avestruz(Passaro):
+class Avestruz(Passaro): # herança
     def voar(self):
         print("Avestruz nao pode voar")
 
-def plano_voo(obj):
+def plano_voo(obj): #polimorfismo
     obj.voar()
 
 p1 = Pardal()
