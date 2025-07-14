@@ -16,3 +16,8 @@ class Estudante:
     
 aluno1 = Estudante("Joao", "11")
 print(aluno1)
+
+aluno1.escola = "Escola 1"
+# !=
+Estudante.escola = "Escola"
+print(aluno1)
