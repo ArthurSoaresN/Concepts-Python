@@ -11,15 +11,16 @@ class ControleRemoto(ABC):
     @abstractmethod
     def ligar(self):
         pass
-    
+
     @abstractmethod   
     def desligar(self):
         pass
 
+    @property
+    @abstractmethod
+    def marca(self):
+        pass
+
 class ControleTV(ControleRemoto):
     pass
-
-controle = ControleTV()
-controle.ligar()
-controle.desligar()
 
