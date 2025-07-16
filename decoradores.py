@@ -28,3 +28,19 @@ def executar(funcao, nome):
     return funcao(nome)
 
 print(executar(mensagem, "Joao"))
+
+def meu_decorador(funcao):
+    def envelope():
+        print("Faz algo antes")
+        funcao()
+        print("Faz algo depois")
+    return envelope
+
+def ola_mundo():
+    print("Ola mundo")
+
+ola_mundo = meu_decorador(ola_mundo)
+ola_mundo()
+
+# Açucar sintatico
+# O Python permite que voce use decoradores com o simbilo @
