@@ -47,11 +47,11 @@ ola_mundo()
 
 def duplicar(func):
     def envelope(*args, **kwargs):
-        func(*args, **kwargs)
+        func(*args, **kwargs) # Para não quebrar a função
         func(*args, **kwargs)
     return envelope
 
-@duplicar
+@duplicar # Decorador
 def aprender(tecnologia):
     print(f"Estou aprendendo {tecnologia}")
 
