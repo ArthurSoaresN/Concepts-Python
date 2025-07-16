@@ -36,11 +36,12 @@ def meu_decorador(funcao):
         print("Faz algo depois")
     return envelope
 
+# Açucar sintatico
+# O Python permite que voce use decoradores com o simbilo @
+# @meu_decorador -> DECORADOR com acucar sintatico -> basta so chamar a função
 def ola_mundo():
     print("Ola mundo")
 
-ola_mundo = meu_decorador(ola_mundo)
+ola_mundo = meu_decorador(ola_mundo) # Sem acucar sintatico
 ola_mundo()
 
-# Açucar sintatico
-# O Python permite que voce use decoradores com o simbilo @
