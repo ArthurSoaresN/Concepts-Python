@@ -14,3 +14,17 @@ def pai():
     filho1()
 
 pai()
+
+def mensagem(nome):
+    print("executando mensagem")
+    return f"Oi {nome}"
+
+def mensagem_longa(nome):
+    print("execitando mensagem longa")
+    return f"Olá tudo bom {nome}?"
+
+def executar(funcao, nome):
+    print("execuntando executar")
+    return funcao(nome)
+
+print(executar(mensagem, "Joao"))
