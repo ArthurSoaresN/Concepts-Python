@@ -49,6 +49,7 @@ def duplicar(func):
     def envelope(*args, **kwargs):
         func(*args, **kwargs) # Para não quebrar a função
         func(*args, **kwargs)
+        # Pode ter um return aqui
     return envelope
 
 @duplicar # Decorador
