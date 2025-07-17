@@ -59,5 +59,4 @@ def aprender(tecnologia):
 aprender("Python")
 
 # Introspecção
-
 # Capacidade de um objeto saber sobre seus propios atributos em tempo de execução
