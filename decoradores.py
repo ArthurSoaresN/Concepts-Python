@@ -31,9 +31,9 @@ print(executar(mensagem, "Joao"))
 
 def meu_decorador(funcao):
     def envelope():
-        print("Faz algo antes")
+        print("Faz algo antes") # EXEMPLO: Verificação
         funcao()
-        print("Faz algo depois")
+        print("Faz algo depois") # EXEMPLO: Aprovação
     return envelope
 
 # Açucar sintatico
@@ -57,3 +57,7 @@ def aprender(tecnologia):
     print(f"Estou aprendendo {tecnologia}")
 
 aprender("Python")
+
+# Introspecção
+
+# Capacidade de um objeto saber sobre seus propios atributos em tempo de execução
