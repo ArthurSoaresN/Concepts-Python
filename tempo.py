@@ -41,6 +41,7 @@ print(
 print(data_atual.strftime("%d/%m/%Y")) # Dia/Mes/Ano
 
 data_atual_Brasil = data_atual.strftime("%d/%m/%Y %H:%M")
+mascara_ptbr = "%d/%m/%Y %H: %M"
 
 print(
     f"Agora são {data_atual_Brasil}, "
