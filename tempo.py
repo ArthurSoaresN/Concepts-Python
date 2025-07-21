@@ -34,3 +34,15 @@ print(
     f"Agora são {data_atual}, "
     f"tempo estimado para entrega é de: {data_atual + datetime.timedelta(minutes=tempo_estimado3)}"
 )
+
+# Conversão e formatação de datas com strftime e strptime
+# parse -> conversão
+
+print(data_atual.strftime("%d/%m/%Y")) # Dia/Mes/Ano
+
+data_atual_Brasil = data_atual.strftime("%d/%m/%Y %H:%M")
+
+print(
+    f"Agora são {data_atual_Brasil}, "
+    f"tempo estimado para entrega é de: {(data_atual + datetime.timedelta(minutes=tempo_estimado2)).strftime('%d/%m/%Y %H:%M')}"
+)
