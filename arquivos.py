@@ -13,8 +13,20 @@
 
 # Método read, readline, readlines
 
-# -*- coding: utf-8 -*-
-
+# read
 arquivo = open("arq.txt", "r") # Caminho relativo
 print(arquivo.read())
 arquivo.close()
+
+# readline
+# Ele retorna linha a linha
+
+# readlines
+# Ele itera o retorno de linha a linha
+
+# Podemos usar write() ou writelines() para escrever em um arquivo
+
+
+escrita = open("teste.txt", "w")
+escrita.write("Escrevendo em arquivos usando Python")
+escrita.close()
