@@ -50,3 +50,11 @@ escrita.close()
 # os.remove()
 # os.rename()
 # shutil.move()
+
+# Tratamento de erros em Python c/ exceções
+
+# FileNotFoundError: Quando não encontra o arquivo no diretório especificado
+# PermissionErro: Quando a tentativa de manipular o arquivo falha por falta de permissão
+# IOError: Erro geral de E/S (Ex: falta de espaço)
+# UnicodeDecodeError: Erro de decodificação de dados em um arquivo de texto usando codificação inadequada
+# UnicodeEncodeError: Erro quando tenta codificar dados em uma determinada codificação ao gravar em um arquivo de texto
