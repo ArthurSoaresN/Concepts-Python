@@ -30,3 +30,7 @@ arquivo.close()
 escrita = open("teste.txt", "w")
 escrita.write("Escrevendo em arquivos usando Python")
 escrita.close()
+
+# Python tambem oferece funções para gerenciar arquivos e diretorios.
+# Podemos criar, renomear e excluir arquivos e diretórios usando
+# os módulos 'os' e 'shutil'
