@@ -43,3 +43,10 @@ escrita.close()
 # Podemos criar, renomear e excluir arquivos e diretórios usando
 # os módulos 'os' e 'shutil'
 
+
+# Manipulação
+
+# os.mkdir()
+# os.remove()
+# os.rename()
+# shutil.move()
