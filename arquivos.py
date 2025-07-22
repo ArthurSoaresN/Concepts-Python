@@ -59,3 +59,10 @@ escrita.close()
 # UnicodeDecodeError: Erro de decodificação de dados em um arquivo de texto usando codificação inadequada
 # UnicodeEncodeError: Erro quando tenta codificar dados em uma determinada codificação ao gravar em um arquivo de texto
 # IsADirectoryErro: Tentativa de abrir um diretório e não um arquivo
+
+print()
+try:
+    arquivo3 = open("meu_arquivo.txt")
+except FileNotFoundError as exc:
+    print("Erro:")
+    print(exc)
