@@ -51,4 +51,5 @@ print(
 
 data_timezone = datetime.datetime.now(pytz.timezone("Europe/Oslo"))
 
-print(data_timezone.strftime('%d/%m/%Y %H:%M'))
+print(f"Hora em Oslo: {data_timezone.strftime('%d/%m/%Y %H:%M')}")
+print(f"Somando uma hora em Oslo: {(data_timezone + datetime.timedelta(minutes=tempo_estimado3)).strftime('%d/%m/%Y %H:%M')}")
