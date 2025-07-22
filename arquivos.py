@@ -11,6 +11,14 @@
 # file = open('example.txt', 'w')
 # file = open('example.txt', 'a')
 
+import os
+import shutil
+from pathlib import Path
+
+print()
+ROOT_PATH = Path(__file__)
+print(f">>>> {ROOT_PATH.parent} <<<<")
+print()
 # Método read, readline, readlines
 
 # read
@@ -34,3 +42,4 @@ escrita.close()
 # Python tambem oferece funções para gerenciar arquivos e diretorios.
 # Podemos criar, renomear e excluir arquivos e diretórios usando
 # os módulos 'os' e 'shutil'
+
