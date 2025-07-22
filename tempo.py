@@ -1,6 +1,7 @@
 # modulo datetime
 
 import datetime
+import pytz
 
 d = datetime.date(2023, 7, 9) #ano, mes, dia
 print(d)
@@ -47,3 +48,7 @@ print(
     f"Agora são {data_atual_Brasil}, "
     f"tempo estimado para entrega é de: {(data_atual + datetime.timedelta(minutes=tempo_estimado2)).strftime('%d/%m/%Y %H:%M')}"
 )
+
+data_timezone = datetime.datetime.now(pytz.timezone("Europe/Oslo"))
+
+print(data_timezone.strftime('%d/%m/%Y %H:%M'))
