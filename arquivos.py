@@ -77,3 +77,8 @@ except FileNotFoundError as exc:
 # VERIFICAR
 
 # Verificação se o arquivo foi aberto com sucesso ou não
+
+# CODIFICAÇÃO
+
+# Usar a codificação correta
+# with open(ROOT_PATH/'arquivo-utf-8.txt'm encondig="utf-8") as arquivo:
