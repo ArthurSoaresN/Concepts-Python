@@ -88,5 +88,7 @@ except FileNotFoundError as exc:
 # ARQUIVO CSV
 
 # formato de arquivo usado para armazenar dados tabulares
-# (Comma Separated Values) 
+# (Comma Separated Values)   
 # Python fornece o modulo csv
+# usar csv.reader e csv.writer para manipular arquivos CSV
+# usar o argumento newline no metodo open()
