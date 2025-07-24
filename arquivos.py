@@ -11,6 +11,7 @@
 # file = open('example.txt', 'w')
 # file = open('example.txt', 'a')
 
+import csv
 import os
 import shutil
 from pathlib import Path
@@ -82,3 +83,10 @@ except FileNotFoundError as exc:
 
 # Usar a codificação correta
 # with open(ROOT_PATH/'arquivo-utf-8.txt'm encondig="utf-8") as arquivo:
+
+
+# ARQUIVO CSV
+
+# formato de arquivo usado para armazenar dados tabulares
+# (Comma Separated Values) 
+# Python fornece o modulo csv
