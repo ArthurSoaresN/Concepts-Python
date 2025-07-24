@@ -66,3 +66,14 @@ try:
 except FileNotFoundError as exc:
     print("Erro:")
     print(exc)
+
+# BOAS PRATICAS
+
+# BLOCO WITH
+
+# Context manager, para trabalhar com arquivos de forma segura
+# garantir o fechamento do arquivo
+
+# VERIFICAR
+
+# Verificação se o arquivo foi aberto com sucesso ou não
