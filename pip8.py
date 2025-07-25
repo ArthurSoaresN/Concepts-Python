@@ -28,3 +28,13 @@
 
 # Boas Práticas para PEP 8
 # snake_case para funções, CamelCase para classes, 4 espaços para identação, linhas até 79 caracteres
+
+def somar(argumento_1, argumento_2):
+    pass
+
+# Existem ferramentas que nos ajudam a verificar se estamos seguir o padrão como o flake8
+
+#pip install flake8
+# flake8 meu_script.py
+
+# Formatadores automaticos de códigos: Black
