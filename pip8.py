@@ -38,3 +38,8 @@ def somar(argumento_1, argumento_2):
 # flake8 meu_script.py
 
 # Formatadores automaticos de códigos: Black
+
+# Organização dos imports -> isort
+# ferramente para organizar
+# pip install isort
+# isort meu_script
