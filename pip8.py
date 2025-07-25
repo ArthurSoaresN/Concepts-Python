@@ -8,3 +8,7 @@
 # Pip é o gerenciador de pacotes do python, eles nos permite instalar
 # atualizar e remover pacotes
 # pypi.org -> baixar pacotes para usar no python
+
+# Ambientes Virtuais
+# python3 -m venv myenv
+# source myenv/bin/activate
