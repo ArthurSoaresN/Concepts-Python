@@ -20,3 +20,8 @@
 
 # pip install pipenv
 # pipenv install numpy
+
+# Poetry é outra ferramente da gerenciamento de dependencias para python
+# permite declarar as bibliotecas
+# pip install poetry
+# poetry new myproject
