@@ -25,3 +25,6 @@
 # permite declarar as bibliotecas
 # pip install poetry
 # poetry new myproject
+
+# Boas Práticas para PEP 8
+# snake_case para funções, CamelCase para classes, 4 espaços para identação, linhas até 79 caracteres
