@@ -17,3 +17,6 @@
 # que combina a gestão de dependências com a criação 
 # de ambiente virtual para seus projetos e adiciona ou remove
 # automaticamente do arquivo Pipfile
+
+# pip install pipenv
+# pipenv install numpy
