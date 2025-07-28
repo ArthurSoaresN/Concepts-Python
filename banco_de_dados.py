@@ -10,4 +10,4 @@
 #  | ID | NOME | SOBRENOME | EMAIL | CADASTRO |
 #   ------------------------------------------
 
- 
+ # Estrutura rigida no padrão
