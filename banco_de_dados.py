@@ -10,4 +10,7 @@
 #  | ID | NOME | SOBRENOME | EMAIL | CADASTRO |
 #   ------------------------------------------
 
- # Estrutura rigida no padrão
+# Estrutura rigida no padrão
+
+# DBMS (DataBase Management System): Software para acessar, manipular e monitorar
+# um sistema de banco de dados
