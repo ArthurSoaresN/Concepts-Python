@@ -36,3 +36,10 @@
 # Consistencia
 # Isolamento
 # Durabilidade
+
+# SQL - Structured Query Language
+
+# Sintaxe Basica: Nomenclatura
+# Os nomes devem começar cm Cactere sublinhado
+# Os nomes podem conter letras, numeros e caractes de sublinhado (_)
+# Sensibilidade a maiusculas e minusculas
