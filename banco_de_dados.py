@@ -21,3 +21,18 @@
 
 # SGBD (Criação e manipulação da banco de dados) Ex: MySQL
 # Create, Read, Update, Delete
+
+# Relacionamento entre Tabelas
+# Linguagem de Consulta Estruturada
+# Integridade referencial
+# Normalização de dados
+# Segurança
+# Flexibilidade e extensibilidade
+# Suporte a transações ACID
+
+# ACID
+
+# Atomicidade
+# Consistencia
+# Isolamento
+# Durabilidade
