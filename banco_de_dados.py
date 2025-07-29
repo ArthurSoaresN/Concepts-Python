@@ -43,3 +43,10 @@
 # Os nomes devem começar cm Cactere sublinhado
 # Os nomes podem conter letras, numeros e caractes de sublinhado (_)
 # Sensibilidade a maiusculas e minusculas
+
+# Modelos: MER E DER
+
+# MER é representado atraves de diagramas chamadados diagramas entidade-relacionamento (DER)
+# Entidades são nomeados com substantivos concretos ou abstratos que representam forma clara
+# sua função dentro do dominio, exemplo: Usuario
+# Atributos: Caracteristicas ou propriedades das entidades
