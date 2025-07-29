@@ -14,3 +14,10 @@
 
 # DBMS (DataBase Management System): Software para acessar, manipular e monitorar
 # um sistema de banco de dados
+
+# Conceitos Básicos
+
+# Relacionais (SQL) / Não Relacionais (NoSQL) / Orientado a Objetos / Hierárquico
+
+# SGBD (Criação e manipulação da banco de dados) Ex: MySQL
+# Create, Read, Update, Delete
