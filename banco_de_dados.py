@@ -94,3 +94,7 @@
 # RIGHT JOIN "CONJUNTO B + INTERSEÇÃO"
 
 # Retorna as tabelas a direita da junção e as linhas correspondentes da tabela a esquerda
+
+# FULL JOIN "A + B"
+
+# Retorna todas as linahas de ambas as tabelas
