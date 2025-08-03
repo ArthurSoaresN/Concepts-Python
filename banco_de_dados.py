@@ -98,3 +98,20 @@
 # FULL JOIN "A + B"
 
 # Retorna todas as linahas de ambas as tabelas
+
+# Funções Agregadas
+
+# COUNT: Conta o numero de registros
+# SUM: Soma os valores de uma coluna numerica
+# AVG: Calcula a media dos valores de uma coluna numerica
+# MIN: Retorna o valor minimo de uma coluna
+# MAX: Retorna o valor máximo de uma coluna
+
+# AGRUPAMENTO DE RESULTADOS
+
+# SELECT...
+# FROM...
+# GROUP BY
+
+# ORDENAÇÃO
+# Order by
