@@ -67,3 +67,30 @@
 # DELETE FROM {{tabela}} WHERE {{condição}}
 # ALTER TABLE para modificar a estrutura de uma tabela
 # DROP TABLE para remover uma tabela existente
+
+# CHAVE PRIMARIA E ESTRANGEIRAS
+
+# Chave primaria: identifica exclusivamente, não pode conter valores null
+# uma tabela pode ter apenas uma PRIMARY KEY
+
+# CREATE TABLE {{tabela}} ( ID PRIMARY KEY AUTOINCREMENT,...);
+
+# Chave estrangeira: Usada para estabelecer e manter a integridade dos dados entre tabelas relacionadas
+# Pode ser NULL ( registro orfão ), é possivel ter mais de uma em uma tabela
+# FOREIGN KEY 
+
+# Normalização de Dados
+# Processo para organizar a estrutura de um banco de dados relacional de forma
+# a eliminar redundancias e anomalias, garantindo a consistencai e integridade dos dados
+
+# INNER JOIN "INTERSEÇÂO"
+
+# Retorna apenas as linhas que contem as correspondencia de ambas as tabelas envolvidas na junção 
+
+# LEFT JOIN "CONJUNTO A + INTERSEÇÂO"
+
+# Retorna todas as linhas da tabela a esquerda da junção e as linhas correspondentes da tabela a direita
+
+# RIGHT JOIN "CONJUNTO B + INTERSEÇÃO"
+
+# Retorna as tabelas a direita da junção e as linhas correspondentes da tabela a esquerda
