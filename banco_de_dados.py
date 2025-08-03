@@ -50,3 +50,20 @@
 # Entidades são nomeados com substantivos concretos ou abstratos que representam forma clara
 # sua função dentro do dominio, exemplo: Usuario
 # Atributos: Caracteristicas ou propriedades das entidades
+
+# Ex:
+
+# CREATE TRABLE usuarios (
+# id INT, 
+# nome VARCHAR(255) NOT NULL COMMENT 'Nome do usuário',
+# email VARCHAR(100) NOT NULL UNIQUE COMMENT 'E-mail do usuário',
+# endereco VARCHAR(50) NOT NULL COMMENT 'Endereço do usuariom
+# data_nascimento DATE NOT NULL COMMENT 'Data de nascimento do usuario');
+
+# INSENT INFO USUARIOS (id, nome, email, data_nascimento, endereco) VALUES (1, "Pamela", "pamela@email.com", "1993-07-05", "Avenida 1");
+
+# SELECT = FROM 'usuarios'
+# UPDATE {{tabela}} set {{coluna 1}} WHERE {{condição}}
+# DELETE FROM {{tabela}} WHERE {{condição}}
+# ALTER TABLE para modificar a estrutura de uma tabela
+# DROP TABLE para remover uma tabela existente
