@@ -115,3 +115,8 @@
 
 # ORDENAÇÃO
 # Order by
+
+# NoSQL:
+# Not Only SQL
+# BD relacional: escalabilidade vertical (hardware)
+# BD NoSql: escalabilidade horizontal (aperfeiçoando conforme a demanda)
