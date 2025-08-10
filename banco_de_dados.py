@@ -120,3 +120,13 @@
 # Not Only SQL
 # BD relacional: escalabilidade vertical (hardware)
 # BD NoSql: escalabilidade horizontal (aperfeiçoando conforme a demanda)
+
+# Introdução aos Bancos de dados Relacionais:
+
+# Coleções de dados organizados (de maneira elotronica pelo contexto)
+# Tipos: relacionais, não relacionasi e Orientado a Objetos
+
+# Papel do SGDB
+# Software para gerenciamento do Banco de Dados
+
+# Banco de Dados Ralacional é um tipo que organiza os dados em tabelas
