@@ -192,3 +192,7 @@ def atualizar_registro(conexao, cursor, nome, email, id):
 # cliente = (nome, email)
 # data = [cliente1, cliente2, cliente2, cliente3... , cliente n]
 # com menos commits, mais economia
+
+# Consultas com unico resultado
+# metedo fetchone() serve para recuperar um unico registro de resultado
+# retorna o mais próximo ou None
