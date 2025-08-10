@@ -133,3 +133,13 @@
 # Chave Primária -> ID para unicidade dos registros
 # Chave Estrangeira -> Aponta para a chave primária criando um relacionamento entre dados
 # Exemplo: Conexão de Pedidos (Feitos pelos Clientes) com os Clientes
+
+# PYTHON DB API
+
+# Usado para fazer a conexão com o Banco de Dados
+# PSYCOPG -> Driver para trabalhar com banco de dados
+
+import sqlite3
+
+conexao = sqlite3.connect("clientes.db")
+print(conexao)
