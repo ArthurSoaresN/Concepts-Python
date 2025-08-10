@@ -182,3 +182,7 @@ def atualizar_registro(conexao, cursor, nome, email, id):
     data = (nome, email, id)
     cursor.execute('UPDATE clientes SET nome=?, email=?, WHERE id=?', data)
     conexao.commit()
+
+# A operação DELETE do SQL é usada para remover registros
+# data = (id,)
+# cursor.execute('DELETE FROM clientes WHERE id=?', data)
