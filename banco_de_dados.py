@@ -208,3 +208,5 @@ try:
 except Exception as erro:
     print(f"{erro}")
     conexao.rollback()
+
+# Tratamento para clientes com ID iguais por exemplo, manter a individualidade dos ID's
