@@ -186,3 +186,9 @@ def atualizar_registro(conexao, cursor, nome, email, id):
 # A operação DELETE do SQL é usada para remover registros
 # data = (id,)
 # cursor.execute('DELETE FROM clientes WHERE id=?', data)
+
+# Inserindo registro em lote
+# Exemplo:
+# cliente = (nome, email)
+# data = [cliente1, cliente2, cliente2, cliente3... , cliente n]
+# com menos commits, mais economia
