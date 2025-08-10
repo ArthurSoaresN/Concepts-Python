@@ -130,3 +130,6 @@
 # Software para gerenciamento do Banco de Dados
 
 # Banco de Dados Ralacional é um tipo que organiza os dados em tabelas
+# Chave Primária -> ID para unicidade dos registros
+# Chave Estrangeira -> Aponta para a chave primária criando um relacionamento entre dados
+# Exemplo: Conexão de Pedidos (Feitos pelos Clientes) com os Clientes
