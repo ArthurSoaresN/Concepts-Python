@@ -196,3 +196,5 @@ def atualizar_registro(conexao, cursor, nome, email, id):
 # Consultas com unico resultado
 # metedo fetchone() serve para recuperar um unico registro de resultado
 # retorna o mais próximo ou None
+
+# Alterando o row_factory
