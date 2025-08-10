@@ -199,3 +199,12 @@ def atualizar_registro(conexao, cursor, nome, email, id):
 
 # Alterando o row_factory
 # cursor.row_factoty = sqlite3.row
+
+# Gerenciamento de transações
+
+try:
+    cursor.execute("INSERT INTO minha_tabela(?,?)", (1, 'abc'))
+    conexao.commit()
+except Exception as erro:
+    print(f"{erro}")
+    conexao.rollback()
