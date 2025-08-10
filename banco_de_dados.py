@@ -146,3 +146,9 @@ ROOT_PATH = Path(__file__).parent
 
 conexao = sqlite3.connect("clientes.db")
 print(conexao)
+
+# Cursor é o objeto que temos que recuperar para mexer no banco de dados
+
+cursor = conexao.cursor()
+
+cursor.execute('CREATE TABLE clientes (id INTEGER PRIMARY KEY AUTOINCREMENT, nome VARCHAR(100), email VARCHAR(150))')
