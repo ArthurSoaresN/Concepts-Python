@@ -198,3 +198,4 @@ def atualizar_registro(conexao, cursor, nome, email, id):
 # retorna o mais próximo ou None
 
 # Alterando o row_factory
+# cursor.row_factoty = sqlite3.row
