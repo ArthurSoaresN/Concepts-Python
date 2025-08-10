@@ -151,4 +151,15 @@ print(conexao)
 
 cursor = conexao.cursor()
 
-cursor.execute('CREATE TABLE clientes (id INTEGER PRIMARY KEY AUTOINCREMENT, nome VARCHAR(100), email VARCHAR(150))')
+# Criando tabela
+# cursor.execute('CREATE TABLE clientes (id INTEGER PRIMARY KEY AUTOINCREMENT, nome VARCHAR(100), email VARCHAR(150))')
+
+# A criação da tabela virou comentário para não criar outra tabela ao executar
+
+
+
+# Inserção de registros
+
+data = ('Joao', 'joao@hotmai.com')
+cursor.execute('INSERT INTO clientes(nome, email) VALUES (?,?)', data)
+conexao.commit()
