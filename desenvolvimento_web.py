@@ -6,4 +6,7 @@
 # O que é uma API?
 # API ou Interface de Programação de Aplicações, é um conjunto de regras e definições
 # que permite que diferentes aplicações de software ou componentes de comuniquem entre si.
-# Funciona como um intermediário
+# Funciona como um intermediário 
+
+# São cruciais para construção de aplicações modernas e escaláveis. Permitem
+# flexibilidade para integrar e expandir funcionalidades
