@@ -10,3 +10,7 @@
 
 # São cruciais para construção de aplicações modernas e escaláveis. Permitem
 # flexibilidade para integrar e expandir funcionalidades
+
+
+# Documentação API VINDI
+# https://vindi.github.io/api-docs/dist/#/customers
